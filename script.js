@@ -100,15 +100,15 @@ document.addEventListener("DOMContentLoaded", typeWriter);
 document.addEventListener("DOMContentLoaded", function () {
 
     (function(){
-        emailjs.init("r1SqiT6sEv9wtkE27");
+        emailjs.init("76FNtcMYNvH_0-MLk");
     })();
 
     document.getElementById("contact-form").addEventListener("submit", function(e) {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_31p6hi5",
-            "template_zlc8fhv",
+            "service_7uogrql",
+            "template_9m4q9vx",
             this
         )
         .then(function() {
