@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/baloo" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" type="image/x-icon" href="assets/Icon.webp">
+    <title>Cryptita Plays</title>
+</head>
+
+<body>
+    <!-- SECTION 1 -->
+    <section class="section1">
+        <div class="nav-bar">
+            <a href="https://x.com/cryptitaplays">
+                <img src="assets/X.webp" alt="" />
+            </a>
+            <a href="https://www.facebook.com/cryptitaplays">
+                <img src="assets/Facebook.webp" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/company/cryptitaplays">
+                <img src="assets/LinkedIn.webp" alt="" />
+            </a>
+        </div>
+        <div class="logo-div">
+            <img src="assets/Logo.webp" alt="Logo" style="width: 35%; height: auto; display: block;" />
+            <div class="name-div">
+                <h1 class="glow">CRYPTITA PLAYS</h1>
+                <p class="glow slogan">
+                    BRIDGING WEB3 EDUCATION AND SOCIAL IMPACT.
+                </p>
+            </div>
+        </div>
+        <img src="assets/Section1Bldg.webp" alt="" class="section1-bldg" />
+        <img src="assets/Section1Water.webp" alt="" class="section1-water" />
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section2">
+        <img src="assets/Section2.webp" alt="" class="section2-img" />
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section3">
+        <div class="section3-bg-fade">
+            <img src="assets/Section3Bg.webp" alt="" class="section3-bg-fade" />
+        </div>
+        <div class="section3-railway">
+            <img src="assets/Section3Train.webp" alt="" class="train">
+            <img src="assets/Section3Rails.webp" alt="" style="width: 100%; margin-top: -1.5vw; z-index: 10;"/>
+        </div>
+        <img src="assets/Section3DecorTop.webp" alt="" class="section3-decor-top" />
+        <div class="section3-hologram">
+            <div class="carousel">
+            <div class="track">
+                <img src="assets/carousel/pic1.webp" alt="">
+                <img src="assets/carousel/pic2.webp" alt="">
+                <img src="assets/carousel/pic3.webp" alt="">
+                <img src="assets/carousel/pic4.webp" alt="">
+                <img src="assets/carousel/pic5.webp" alt="">
+                <img src="assets/carousel/pic6.webp" alt="">
+                <img src="assets/carousel/pic7.webp" alt="">
+                <img src="assets/carousel/pic8.webp" alt="">
+                <img src="assets/carousel/pic9.webp" alt="">
+                <img src="assets/carousel/pic10.webp" alt="">
+                <img src="assets/carousel/pic11.webp" alt="">
+                <img src="assets/carousel/pic12.webp" alt="">
+                <img src="assets/carousel/pic13.webp" alt="">
+                <img src="assets/carousel/pic14.webp" alt="">
+                <img src="assets/carousel/pic15.webp" alt="">
+                <img src="assets/carousel/pic16.webp" alt="">
+                <img src="assets/carousel/pic17.webp" alt="">
+                <img src="assets/carousel/pic18.webp" alt="">
+                <img src="assets/carousel/pic19.webp" alt="">
+                <img src="assets/carousel/pic20.webp" alt="">
+                <img src="assets/carousel/pic21.webp" alt="">
+                <img src="assets/carousel/pic22.webp" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="section3-billboard">
+            <div class="section3-billboard-content">
+                <h1>Projects</h1>
+                <div class="description"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="section4">
+        <img src="assets/Section3DecorBottom.webp" alt="" class="section3-decor-bottom">
+        <img src="assets/Section4BgLeft.webp" alt="" class="section4-bg-left">
+        <img src="assets/Section4BgRight.webp" alt="" class="section4-bg-right">
+        <div class="books">
+            <img src="assets/Section4UniPartnersBook.webp" alt="" class="univ-partners-book-closed" onclick="openUnivPartnersBook()">
+            <div class="book-stack">
+                <img src="assets/Section4EducPartnersBook.webp" alt="" class="educ-partners-book-closed" onclick="openEducPartnersBook()">
+                <img src="assets/Section4BitgetBook.webp" alt="" class="bitget-book-closed" onclick="openBitgetBook()">
+                <img src="assets/Section4PatnersBook.webp" alt="" class="partners-book-closed" onclick="openComPartnersBook()">
+                <img src="assets/Section4BottomBook.webp" alt="">
+            </div>
+        </div>
+        <div class="dark-bg" id="comPartnersBook" onclick="closeComPartnersBook()">
+            <div class="book-bg" onclick="event.stopPropagation();">
+                <div class="book">
+                    <!-- Checkboxes -->
+                    <input type="checkbox" id="cch1" />
+                    <input type="checkbox" id="cch2" />
+                    <input type="checkbox" id="cch3" />
+                    <input type="checkbox" id="cch4" />
+                    <input type="checkbox" id="cch5" />
+                    <input type="checkbox" id="cch6" />
+
+                    <div id="cover"></div>
+                    <div class="flip-book">
+                        <!-- Flip pages -->
+                        <div class="flip" id="cp1">
+                            <div class="back cp2"><label class="back-btn" for="cch1"></label></div>
+                            <div class="front cp1"><label class="next-btn" for="cch1"></label></div>
+                        </div>
+                        <div class="flip" id="cp2">
+                            <div class="back cp4"><label class="back-btn" for="cch2"></label></div>
+                            <div class="front cp3"><label class="next-btn" for="cch2"></label></div>
+                        </div>
+                        <div class="flip" id="cp3">
+                            <div class="back cp6"><label class="back-btn" for="cch3"></label></div>
+                            <div class="front cp5"><label class="next-btn" for="cch3"></label></div>
+                        </div>
+                        <div class="flip" id="cp4">
+                            <div class="back cp8"><label class="back-btn" for="cch4"></label></div>
+                            <div class="front cp7"><label class="next-btn" for="cch4"></label></div>
+                        </div>
+                        <div class="flip" id="cp5">
+                            <div class="back cp10"><label class="back-btn" for="cch5"></label></div>
+                            <div class="front cp9"><label class="next-btn" for="cch5"></label></div>
+                        </div>
+                        <div class="flip" id="cp6">
+                            <div class="back cp12"><label class="back-btn" for="cch6"></label></div>
+                            <div class="front cp11"><label class="next-btn" for="cch6"></label></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dark-bg" id="educPartnersBook" onclick="closeEducPartnersBook()">
+            <div class="book-bg" onclick="event.stopPropagation();">
+                <div class="book">
+                    <!-- Checkboxes -->
+                    <input type="checkbox" id="ech1" />
+                    <input type="checkbox" id="ech2" />
+                    <input type="checkbox" id="ech3" />
+                    <input type="checkbox" id="ech4" />
+                    <input type="checkbox" id="ech5" />
+
+                    <div id="cover"></div>
+                    <div class="flip-book">
+                        <!-- Flip pages -->
+                        <div class="flip" id="ep1">
+                            <div class="back ep2"><label class="back-btn" for="ech1"></label></div>
+                            <div class="front ep1"><label class="next-btn" for="ech1"></label></div>
+                        </div>
+                        <div class="flip" id="ep2">
+                            <div class="back ep4"><label class="back-btn" for="ech2"></label></div>
+                            <div class="front ep3"><label class="next-btn" for="ech2"></label></div>
+                        </div>
+                        <div class="flip" id="ep3">
+                            <div class="back ep6"><label class="back-btn" for="ech3"></label></div>
+                            <div class="front ep5"><label class="next-btn" for="ech3"></label></div>
+                        </div>
+                        <div class="flip" id="ep4">
+                            <div class="back ep8"><label class="back-btn" for="ech4"></label></div>
+                            <div class="front ep7"><label class="next-btn" for="ech4"></label></div>
+                        </div>
+                        <div class="flip" id="ep5">
+                            <div class="back ep10"><label class="back-btn" for="ech5"></label></div>
+                            <div class="front ep9"><label class="next-btn" for="ech5"></label></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dark-bg" id="univPartnersBook" onclick="closeUnivPartnersBook()">
+            <div class="book-bg" onclick="event.stopPropagation();">
+                <div class="book">
+                    <!-- Checkboxes -->
+                    <input type="checkbox" id="uch1" />
+                    <input type="checkbox" id="uch2" />
+                    <input type="checkbox" id="uch3" />
+                    <input type="checkbox" id="uch4" />
+                    <input type="checkbox" id="uch5" />
+                    <input type="checkbox" id="uch6" />
+                    <input type="checkbox" id="uch7" />
+                    <input type="checkbox" id="uch8" />
+
+                    <div id="cover"></div>
+                    <div class="flip-book">
+                        <!-- Flip pages -->
+                        <div class="flip" id="up1">
+                            <div class="back up2"><label class="back-btn" for="uch1"></label></div>
+                            <div class="front up1"><label class="next-btn" for="uch1"></label></div>
+                        </div>
+                        <div class="flip" id="up2">
+                            <div class="back up4"><label class="back-btn" for="uch2"></label></div>
+                            <div class="front up3"><label class="next-btn" for="uch2"></label></div>
+                        </div>
+                        <div class="flip" id="up3">
+                            <div class="back up6"><label class="back-btn" for="uch3"></label></div>
+                            <div class="front up5"><label class="next-btn" for="uch3"></label></div>
+                        </div>
+                        <div class="flip" id="up4">
+                            <div class="back up8"><label class="back-btn" for="uch4"></label></div>
+                            <div class="front up7"><label class="next-btn" for="uch4"></label></div>
+                        </div>
+                        <div class="flip" id="up5">
+                            <div class="back up10"><label class="back-btn" for="uch5"></label></div>
+                            <div class="front up9"><label class="next-btn" for="uch5"></label></div>
+                        </div>
+                        <div class="flip" id="up6">
+                            <div class="back up12"><label class="back-btn" for="uch6"></label></div>
+                            <div class="front up11"><label class="next-btn" for="uch6"></label></div>
+                        </div>
+                        <div class="flip" id="up7">
+                            <div class="back up14"><label class="back-btn" for="uch7"></label></div>
+                            <div class="front up13"><label class="next-btn" for="uch7"></label></div>
+                        </div>
+                        <div class="flip" id="up8">
+                            <div class="back up16"><label class="back-btn" for="uch8"></label></div>
+                            <div class="front up15"><label class="next-btn" for="uch8"></label></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dark-bg" id="encyclopediaBook" onclick="closeBitgetBook()">
+            <div class="book-bg2" onclick="event.stopPropagation();">
+                <div class="book">
+
+                    <!-- 22 checkboxes -->
+                    <input type="checkbox" id="c1" />
+                    <input type="checkbox" id="c2" />
+                    <input type="checkbox" id="c3" />
+                    <input type="checkbox" id="c4" />
+                    <input type="checkbox" id="c5" />
+                    <input type="checkbox" id="c6" />
+                    <input type="checkbox" id="c7" />
+                    <input type="checkbox" id="c8" />
+                    <input type="checkbox" id="c9" />
+                    <input type="checkbox" id="c10" />
+                    <input type="checkbox" id="c11" />
+                    <input type="checkbox" id="c12" />
+                    <input type="checkbox" id="c13" />
+                    <input type="checkbox" id="c14" />
+                    <input type="checkbox" id="c15" />
+                    <input type="checkbox" id="c16" />
+                    <input type="checkbox" id="c17" />
+                    <input type="checkbox" id="c18" />
+                    <input type="checkbox" id="c19" />
+                    <input type="checkbox" id="c20" />
+                    <input type="checkbox" id="c21" />
+                    <input type="checkbox" id="c22" />
+
+                    <div id="cover-encyclopedia"></div>
+
+                    <div class="flip-book-encyclopedia">
+
+                        <!-- FLIP 1 → pages 1–2 -->
+                        <div class="flip" id="p1">
+                            <div class="back-encyclopedia p2"><label class="back-btn" for="c1"></label></div>
+                            <div class="front-encyclopedia p1"><label class="next-btn" for="c1"></label></div>
+                        </div>
+
+                        <!-- FLIP 2 → pages 3–4 -->
+                        <div class="flip" id="p2">
+                            <div class="back-encyclopedia p4"><label class="back-btn" for="c2"></label></div>
+                            <div class="front-encyclopedia p3"><label class="next-btn" for="c2"></label></div>
+                        </div>
+
+                        <!-- FLIP 3 → pages 5–6 -->
+                        <div class="flip" id="p3">
+                            <div class="back-encyclopedia p6"><label class="back-btn" for="c3"></label></div>
+                            <div class="front-encyclopedia p5"><label class="next-btn" for="c3"></label></div>
+                        </div>
+
+                        <!-- FLIP 4 → pages 7–8 -->
+                        <div class="flip" id="p4">
+                            <div class="back-encyclopedia p8"><label class="back-btn" for="c4"></label></div>
+                            <div class="front-encyclopedia p7"><label class="next-btn" for="c4"></label></div>
+                        </div>
+
+                        <!-- FLIP 5 → pages 9–10 -->
+                        <div class="flip" id="p5">
+                            <div class="back-encyclopedia p10"><label class="back-btn" for="c5"></label></div>
+                            <div class="front-encyclopedia p9"><label class="next-btn" for="c5"></label></div>
+                        </div>
+
+                        <!-- FLIP 6 → pages 11–12 -->
+                        <div class="flip" id="p6">
+                            <div class="back-encyclopedia p12"><label class="back-btn" for="c6"></label></div>
+                            <div class="front-encyclopedia p11"><label class="next-btn" for="c6"></label></div>
+                        </div>
+
+                        <!-- FLIP 7 → pages 13–14 -->
+                        <div class="flip" id="p7">
+                            <div class="back-encyclopedia p14"><label class="back-btn" for="c7"></label></div>
+                            <div class="front-encyclopedia p13"><label class="next-btn" for="c7"></label></div>
+                        </div>
+
+                        <!-- FLIP 8 → pages 15–16 -->
+                        <div class="flip" id="p8">
+                            <div class="back-encyclopedia p16"><label class="back-btn" for="c8"></label></div>
+                            <div class="front-encyclopedia p15"><label class="next-btn" for="c8"></label></div>
+                        </div>
+
+                        <!-- FLIP 9 → pages 17–18 -->
+                        <div class="flip" id="p9">
+                            <div class="back-encyclopedia p18"><label class="back-btn" for="c9"></label></div>
+                            <div class="front-encyclopedia p17"><label class="next-btn" for="c9"></label></div>
+                        </div>
+
+                        <!-- FLIP 10 → pages 19–20 -->
+                        <div class="flip" id="p10">
+                            <div class="back-encyclopedia p20"><label class="back-btn" for="c10"></label></div>
+                            <div class="front-encyclopedia p19"><label class="next-btn" for="c10"></label></div>
+                        </div>
+
+                        <!-- FLIP 11 → pages 21–22 -->
+                        <div class="flip" id="p11">
+                            <div class="back-encyclopedia p22"><label class="back-btn" for="c11"></label></div>
+                            <div class="front-encyclopedia p21"><label class="next-btn" for="c11"></label></div>
+                        </div>
+
+                        <!-- FLIP 12 → pages 23–24 -->
+                        <div class="flip" id="p12">
+                            <div class="back-encyclopedia p24"><label class="back-btn" for="c12"></label></div>
+                            <div class="front-encyclopedia p23"><label class="next-btn" for="c12"></label></div>
+                        </div>
+
+                        <!-- FLIP 13 → pages 25–26 -->
+                        <div class="flip" id="p13">
+                            <div class="back-encyclopedia p26"><label class="back-btn" for="c13"></label></div>
+                            <div class="front-encyclopedia p25"><label class="next-btn" for="c13"></label></div>
+                        </div>
+
+                        <!-- FLIP 14 → pages 27–28 -->
+                        <div class="flip" id="p14">
+                            <div class="back-encyclopedia p28"><label class="back-btn" for="c14"></label></div>
+                            <div class="front-encyclopedia p27"><label class="next-btn" for="c14"></label></div>
+                        </div>
+
+                        <!-- FLIP 15 → pages 29–30 -->
+                        <div class="flip" id="p15">
+                            <div class="back-encyclopedia p30"><label class="back-btn" for="c15"></label></div>
+                            <div class="front-encyclopedia p29"><label class="next-btn" for="c15"></label></div>
+                        </div>
+
+                        <!-- FLIP 16 → pages 31–32 -->
+                        <div class="flip" id="p16">
+                            <div class="back-encyclopedia p32"><label class="back-btn" for="c16"></label></div>
+                            <div class="front-encyclopedia p31"><label class="next-btn" for="c16"></label></div>
+                        </div>
+
+                        <!-- FLIP 17 → pages 33–34 -->
+                        <div class="flip" id="p17">
+                            <div class="back-encyclopedia p34"><label class="back-btn" for="c17"></label></div>
+                            <div class="front-encyclopedia p33"><label class="next-btn" for="c17"></label></div>
+                        </div>
+
+                        <!-- FLIP 18 → pages 35–36 -->
+                        <div class="flip" id="p18">
+                            <div class="back-encyclopedia p36"><label class="back-btn" for="c18"></label></div>
+                            <div class="front-encyclopedia p35"><label class="next-btn" for="c18"></label></div>
+                        </div>
+
+                        <!-- FLIP 19 → pages 37–38 -->
+                        <div class="flip" id="p19">
+                            <div class="back-encyclopedia p38"><label class="back-btn" for="c19"></label></div>
+                            <div class="front-encyclopedia p37"><label class="next-btn" for="c19"></label></div>
+                        </div>
+
+                        <!-- FLIP 20 → pages 39–40 -->
+                        <div class="flip" id="p20">
+                            <div class="back-encyclopedia p40"><label class="back-btn" for="c20"></label></div>
+                            <div class="front-encyclopedia p39"><label class="next-btn" for="c20"></label></div>
+                        </div>
+
+                        <!-- FLIP 21 → pages 41–42 -->
+                        <div class="flip" id="p21">
+                            <div class="back-encyclopedia p42"><label class="back-btn" for="c21"></label></div>
+                            <div class="front-encyclopedia p41"><label class="next-btn" for="c21"></label></div>
+                        </div>
+
+                        <!-- FLIP 22 → pages 43–44 -->
+                        <div class="flip" id="p22">
+                            <div class="back-encyclopedia p44"><label class="back-btn" for="c22"></label></div>
+                            <div class="front-encyclopedia p43"><label class="next-btn" for="c22"></label></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/Section4BreakTop.webp" alt="" class="section4-break-top">
+    </section>
+    <!-- SECTION 5 -->
+    <section class="section5">
+        <img src="assets/Section4BreakBottom.webp" alt="" class="section4-break-bottom">
+        <img src="assets/Section4BgBldg.webp" alt="" class="section5-bg-bldg fade-up">
+        <img src="assets/Section4FrontBldg.webp" alt="" class="section5-front-bldg fade-up">
+        <div class="section5-content">
+            <h1 class="glow">EMPOWERING COMMUNITIES, ONE BOOK AT A TIME WITH CRYPTITA PLAYS.</h1>
+            <form id="contact-form">
+                <div class="section5-email-details-div">
+                    <h2>Collaborate with us</h2>
+                    <div class="name-box">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="email-box">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="subject-box">
+                        <label for="subject">Subject: </label>
+                        <input type="text" id="subject" name="subject" placeholder="Email subject" required>
+                    </div>
+                    <div class="message-box">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="logo-box"><img src="assets/Logo.webp" alt=""></div>
+                    <div class="submit-box">
+                        <button type="submit" value="Send">Send Email</button>
+                    </div>
+                </div>
+            </form>
+            <div class="footer">
+                <div style="display: flex; flex-direction: row; align-items: center;">
+                    <img src="assets/Logo.webp" alt="" class="footer-logo">
+                    <p style="font-size: 2rem; font-weight: 1000; margin: 0;">CRYPTITA PLAYS</p>
+                </div>
+                <div style="display: flex; flex-direction: row; align-items: center; padding: 20px; column-gap: 20px; flex-wrap: wrap;">
+                    <a href="https://x.com/cryptitaplays" style="display: flex; flex-direction: row; align-items: center; gap: 8px; text-decoration: none;">
+                        <img src="assets/X.webp" alt="" class="footer-icon">
+                        <p>@cryptitaplays</p>
+                    </a>
+                    <a href="https://www.facebook.com/cryptitaplays" style="display: flex; flex-direction: row; align-items: center; gap: 8px; text-decoration: none;">
+                        <img src="assets/Facebook.webp" alt="" class="footer-icon">
+                        <p>CrypTita Plays</p>
+                    </a>
+                    <a href="https://www.linkedin.com/company/cryptitaplays" style="display: flex; flex-direction: row; align-items: center; gap: 8px; text-decoration: none;">
+                        <img src="assets/LinkedIn.webp" alt="" class="footer-icon">
+                        <p>cryptitaplays</p>
+                    </a>                    
+                    <div href="" style="display: flex; flex-direction: row; align-items: center; gap: 8px;">
+                        <img src="assets/Gmail.webp" alt="" class="footer-icon">
+                        <p>cryptitaplays@gmail.com</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+
+</html>
