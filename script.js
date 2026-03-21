@@ -14,42 +14,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function openComPartnersBook() {
     const partnersBook = document.getElementById("comPartnersBook");
-    partnersBook.style.visibility = "visible";
+    partnersBook.style.display = "flex";
 }
 
 function closeComPartnersBook() {
     const partnersBook = document.getElementById("comPartnersBook");
-    partnersBook.style.visibility = "hidden";
+    partnersBook.style.display = "none";
 }
 
 function openEducPartnersBook() {
     const partnersBook = document.getElementById("educPartnersBook");
-    partnersBook.style.visibility = "visible";
+    partnersBook.style.display = "flex";
 }
 
 function closeEducPartnersBook() {
     const partnersBook = document.getElementById("educPartnersBook");
-    partnersBook.style.visibility = "hidden";
+    partnersBook.style.display = "none";
 }
 
 function openUnivPartnersBook() {
     const partnersBook = document.getElementById("univPartnersBook");
-    partnersBook.style.visibility = "visible";
+    partnersBook.style.display = "flex";
 }
 
 function closeUnivPartnersBook() {
     const partnersBook = document.getElementById("univPartnersBook");
-    partnersBook.style.visibility = "hidden";
+    partnersBook.style.display = "none";
 }
 
 function openBitgetBook() {
     const partnersBook = document.getElementById("encyclopediaBook");
-    partnersBook.style.visibility = "visible";
+    partnersBook.style.display = "flex";
 }
 
 function closeBitgetBook() {
     const partnersBook = document.getElementById("encyclopediaBook");
-    partnersBook.style.visibility = "hidden";
+    partnersBook.style.display = "none";
 }
 
 var descriptions = [
